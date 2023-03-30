@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto 1</title>
+</head>
+<body>
+    <main>
+        <h1>Smart TV LG 32" HD</h1>
+        <img src="https://www.lg.com/ar/images/televisores/md05781190/gallery/medium07_1.jpg">
+        <ul>Caracteristicas
+            <li>Tipo de pantalla: Led</li>
+            <li>Tamaño de pantalla: 32 pulgadas</li>
+            <li>Resolucion 1366*768(HD)</li>
+        </ul>
+
+        <p><a href="https://www.lg.com/ar/televisores/lg-32LH575B" target="_blank">Pagina del fabricante</a></p>
+
+        <h2>$ 42.000</h2>
+
+        <hr>
+
+        <h2>Comentarios</h2>
+
+        <form action="/caja-comentarios">
+            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea><br><br>
+            <input type="submit" value="Enviar comentario">
+        </form>
+
+        <hr>
+        <br>
+        
+        <form action="/enviar-calificacion">
+            <label for="5">
+                <input id="5" type="radio" value="5" name="calificacion" checked>5
+            </label>
+            <br>
+            <label for="4">
+                <input id="4" type="radio" value="4" name="calificacion" >4
+            </label>
+            <br>
+            <label for="3">
+                <input id="3" type="radio" value="3" name="calificacion" >3
+            </label>
+            <br>
+            <label for="2">
+                <input id="2" type="radio" value="2" name="calificacion" >2
+            </label>
+            <br>
+            <label for="1">
+                <input id="1" type="radio" value="1" name="calificacion" >1
+            </label>
+            <br>
+            <button type="submit">Enviar Calificacion</button>
+        </form>
+    </main>
+</body>
+</html>
