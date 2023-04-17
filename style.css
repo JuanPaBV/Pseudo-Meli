@@ -1,0 +1,14 @@
+h2 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p,
+ul,
+label {
+    color: blue;
+    font-family: 'Rubik Pixels', cursive;
+}
