@@ -14,7 +14,7 @@ for (let producto of productos) {
     imagen.src = producto.srcImagen;
 
     let link = document.createElement('a');
-    link.href = 'producto.html'
+    link.href = 'producto1.html'
     link.appendChild(imagen)
     link.appendChild(strong);
 
